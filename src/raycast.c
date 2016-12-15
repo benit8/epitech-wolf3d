@@ -10,7 +10,11 @@
 
 #include "wolf3d.h"
 
-float		raycast(sfVector2f pos, float direction, int **map, sfVector2i mapSize)
+float
+raycast(sfVector2f pos,
+	float direction,
+	int **map,
+	sfVector2i mapSize)
 {
   sfVector2f	ray;
   float		dist;
