@@ -1,16 +1,16 @@
 /*
-** my_put_pixel.c for wireframe in /home/benito/delivery/wireframe
+** my_put_pixel.c for wolf3d in /home/benito/delivery/wolf3d
 ** 
 ** Made by Benoit Lormeau
-** Login   <benoit.lormeau@epitech.net>
+** Login   <benoit.lormeau@epitech.eu>
 ** 
-** Started on  Tue Nov 15 15:00:20 2016 Benoit Lormeau
-** Last update Tue Nov 15 15:00:45 2016 Benoit Lormeau
+** Started on  Wed Dec 14 11:15:09 2016 Benoit Lormeau
+** Last update Wed Dec 14 11:15:11 2016 Benoit Lormeau
 */
 
 #include "wolf3d.h"
 
-void	my_put_pixel(t_framebuffer *fb, int x, int y, sfColor color)
+void	my_put_pixel(t_my_framebuffer *fb, int x, int y, sfColor color)
 {
   int		idx;
 

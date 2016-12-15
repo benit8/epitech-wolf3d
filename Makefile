@@ -8,25 +8,26 @@
 ## Last update Tue Dec 13 10:16:12 2016 Benoit Lormeau
 ##
 
-CC	=	gcc
-
 CFLAGS	+=	-Iinclude/
-CFLAGS	+=	-W -Wall -Werror
+CFLAGS	+=	-W -Wall
 
-LDFLAGS	+=	-Iinclude/
 LDFLAGS	+=	-lm
 LDFLAGS	+=	-lc_graph_prog
 
-RM	=	rm -f
-
 SRC	=	src/main.c		\
 		src/angle.c		\
-		src/utils.c		\
+		src/audio.c		\
+		src/inputs.c		\
 		src/map.c		\
+		src/move.c		\
+		src/raycasting.c	\
+		src/states.c	\
+		src/ui.c		\
+		src/utils.c		\
 		src/framebuffer.c	\
 		src/my_put_pixel.c	\
 		src/my_draw_line.c	\
-		src/raycast.c
+		src/my_put_square.c
 
 OBJ	=	$(SRC:.c=.o)
 

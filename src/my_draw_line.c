@@ -1,16 +1,20 @@
 /*
-** dda.c for bswireframe in /home/benito/delivery/CGP_2016_wireframe_bootstrap
+** my_draw_line.c for wolf3d in /home/benito/delivery/wolf3d
 ** 
 ** Made by Benoit Lormeau
-** Login   <benoit.lormeau@epitech.net>
+** Login   <benoit.lormeau@epitech.eu>
 ** 
-** Started on  Tue Nov 15 09:24:02 2016 Benoit Lormeau
-** Last update Tue Nov 15 10:04:30 2016 Benoit Lormeau
+** Started on  Wed Dec 14 11:15:21 2016 Benoit Lormeau
+** Last update Wed Dec 14 11:15:22 2016 Benoit Lormeau
 */
 
 #include "wolf3d.h"
 
-void	my_draw_line(t_framebuffer *fb, sfVector2f from, sfVector2f to, sfColor color)
+void
+my_draw_line(t_my_framebuffer *fb,
+	     sfVector2i from,
+	     sfVector2i to,
+	     sfColor color)
 {
   float	x;
   float	y;
