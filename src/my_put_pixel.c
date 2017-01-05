@@ -5,14 +5,14 @@
 ** Login   <benoit.lormeau@epitech.eu>
 ** 
 ** Started on  Wed Dec 14 11:15:09 2016 Benoit Lormeau
-** Last update Wed Dec 14 11:15:11 2016 Benoit Lormeau
+** Last update Thu Jan  5 14:21:13 2017 Benoit Lormeau
 */
 
 #include "wolf3d.h"
 
 void	my_put_pixel(t_my_framebuffer *fb, int x, int y, sfColor color)
 {
-  int		idx;
+  int	idx;
 
   idx = (fb->width * y + x) * 4;
   if (idx >= 0 && idx < (fb->width * fb->height * 4 - 4) &&

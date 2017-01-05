@@ -5,7 +5,7 @@
 ** Login   <benoit.lormeau@epitech.eu>
 ** 
 ** Started on  Tue Dec 13 10:16:50 2016 Benoit Lormeau
-** Last update Tue Dec 13 10:16:54 2016 Benoit Lormeau
+** Last update Thu Jan  5 14:23:28 2017 Benoit Lormeau
 */
 
 #ifndef	WOLF3D_H_
@@ -35,3 +35,5 @@ float		raycast(sfVector2f pos,
 			float direction,
 			int **map,
 			sfVector2i mapSize);
+
+#endif

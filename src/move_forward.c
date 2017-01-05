@@ -10,6 +10,11 @@
 
 #include "wolf3d.h"
 
+double	radians(double degrees)
+{
+  return (2 * M_PI * degrees / 360);
+}
+
 sfVector2f	move_forward(sfVector2f pos, float direction, float distance)
 {
   sfVector2f	res;
