@@ -12,7 +12,6 @@
 # define WOLF3D_H_
 
 # include <stdlib.h>
-# include <unistd.h>
 # include <math.h>
 # include <SFML/Graphics/RenderWindow.h>
 # include <SFML/Graphics/Texture.h>

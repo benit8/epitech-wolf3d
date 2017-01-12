@@ -3,3 +3,4 @@
 *.o
 bonus/
 wolf3d
+.wolf3d
