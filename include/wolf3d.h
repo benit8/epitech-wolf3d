@@ -24,15 +24,9 @@ typedef struct	s_my_framebuffer
   int		height;
 }		t_my_framebuffer;
 
-void		my_put_pixel(t_my_framebuffer *fb, int x, int y, sfColor color);
-void		my_draw_line(t_my_framebuffer *fb,
-			     sfVector2i from,
-			     sfVector2i to,
-			     sfColor color);
-sfVector2f	move_forward(sfVector2f pos, float direction, float distance);
-float		raycast(sfVector2f pos,
-			float direction,
-			int **map,
-			sfVector2i mapSize);
+void	my_put_pixel(t_my_framebuffer *, int, int, sfColor);
+void	my_draw_line(t_my_framebuffer *, sfVector2i, sfVector2i, sfColor);
+sfVector2f	move_forward(sfVector2f, float, float);
+float	raycast(sfVector2f, float, int **, sfVector2i);
 
 #endif

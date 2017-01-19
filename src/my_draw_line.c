@@ -10,11 +10,10 @@
 
 #include "wolf3d.h"
 
-void
-my_draw_line(t_my_framebuffer *fb,
-	     sfVector2i from,
-	     sfVector2i to,
-	     sfColor color)
+void	my_draw_line(t_my_framebuffer *fb,
+		     sfVector2i from,
+		     sfVector2i to,
+		     sfColor color)
 {
   float	x;
   float	y;
