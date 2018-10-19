@@ -20,7 +20,6 @@ LDFLAGS	+=	-lcsfml-system
 LDFLAGS	+=	-lcsfml-window
 LDFLAGS	+=	-Llib/
 LDFLAGS	+=	-lmy
-LDFLAGS	+=	-lyapi
 
 SRC	=	src/main.c		\
 		src/ai.c		\

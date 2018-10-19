@@ -17,20 +17,19 @@ SRC	=	in_array.c		\
 
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	libmy.a
+NAME	=	../libmy.a
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
-	mv $(NAME) ../
 
 clean:
 	rm -f $(OBJ)
 
 fclean:	clean
-	rm -f ../$(NAME)
+	rm -f $(NAME)
 
 re: fclean all
 
